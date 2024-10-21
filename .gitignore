@@ -1,0 +1,5 @@
+.pytest_cache
+__pycache__
+src/task_2/data/hidden_test.csv
+src/task_2/data/train.csv
+.DS_store

@@ -4,8 +4,8 @@ This task involves building and evaluating machine learning models to predict a 
 
 ## Setup Instructions
 Clone the repository:
-git clone <repository_url>
-cd <repository_name>
+git clone https://github.com/arctickey/quantum_task.git
+cd quantum_task
 
 ## Create a virtual environment:
 python -m venv venv
@@ -16,16 +16,26 @@ pip install -r requirements.txt
 
 ## Project Components
 ### Data
+Data is not stored in github due to size reasons. In order to run the repo, plesase put data in that folder.
+
 data/train.csv: Training dataset.
+
 data/hidden_test.csv: Test dataset.
+
 data/polynomial_predictions.csv: Dataset with predictions for the test set.
+
 ### Models
 models/polynomial.pkl: Pickled polynomial regression model.
+
 models/knn.pkl: Pickled KNeighborsRegressor model.
+
 ### Scripts
 eda.py: Script for performing exploratory data analysis (EDA) on the training data.
+
 train.py: Script for training models and performing cross-validation.
+
 predict.py: Script for making predictions on the test data using the trained models.
+
 models.py: Contains the model classes and utility functions for training and prediction.
 
 ## Note on model selection
@@ -68,6 +78,6 @@ Save the predictions to the data folder.
 ## Requirements
 Ensure you have the following libraries installed (listed in requirements.txt):
 
-pandas
-scikit-learn
-seaborn
+- pandas
+- scikit-learn
+- seaborn
